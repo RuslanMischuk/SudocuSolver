@@ -123,9 +123,9 @@ public class Run {
 		if ( squareNumber >= 4 && squareNumber <=6) lineNumber = 3 ;
 		if ( squareNumber >= 7 && squareNumber <=9) lineNumber = 6 ;
 
-		if (squareNumber == 1 | squareNumber == 4 | squareNumber == 7 ) columnNumber = 1;
-		if (squareNumber == 2 | squareNumber == 5 | squareNumber == 8 ) columnNumber = 4;
-		if (squareNumber == 3 | squareNumber == 6 | squareNumber == 9 ) columnNumber = 7;
+		if (squareNumber == 1 | squareNumber == 4 | squareNumber == 7 ) columnNumber = 0;
+		if (squareNumber == 2 | squareNumber == 5 | squareNumber == 8 ) columnNumber = 3;
+		if (squareNumber == 3 | squareNumber == 6 | squareNumber == 9 ) columnNumber = 6;
 
 
 
@@ -135,7 +135,7 @@ public class Run {
 		for (int i = lineNumber; i < lineNumber+3; i++) {
 			
 
-			for (int j = columnNumber-1; j < columnNumber+2; j++) {
+			for (int j = columnNumber; j < columnNumber+3; j++) {
 				
 				System.out.print(array[i][j] + " ");
 
