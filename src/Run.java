@@ -20,6 +20,9 @@ public class Run {
 	public static void main(String[] args) {
 		
 	
+		
+		
+	
         
         showAll ();
         
@@ -28,6 +31,18 @@ public class Run {
 //        showVerticalLine(1);
      
         showSquare(5);
+        
+        
+        
+        
+        
+        
+		 GroupExaminer line1 = new GroupExaminer();
+
+        
+        
+        
+        
         
 	}
 	
